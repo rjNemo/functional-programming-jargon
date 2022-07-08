@@ -87,12 +87,12 @@ __Table of Contents__
 
 The number of arguments a function takes. From words like unary, binary, ternary, etc.
 
-```js
-const sum = (a, b) => a + b
+```go
+sum := func (a, b int) { return a + b}
 // The arity of sum is 2 (binary)
-const inc = a => a + 1
+inc := func (a int) { return a + 1}
 // The arity of inc is 1 (unary)
-const zero = () => 0
+zero := func () { return 0}
 // The arity of zero is 0 (nullary)
 ```
 
